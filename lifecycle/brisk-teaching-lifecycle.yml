@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.briskteaching.com/
+status_page: https://statuspage.incident.io/brisk-teaching
+status_page_provider: incident.io
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  Brisk Teaching publishes a public status page (hosted by incident.io) but does
+  not expose a public developer API, versioning policy, deprecation policy, or
+  SLA. No OpenAPI is available to derive deprecated operations from.

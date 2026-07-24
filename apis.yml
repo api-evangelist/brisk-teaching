@@ -1,8 +1,30 @@
 aid: brisk-teaching
 name: Brisk Teaching
-description: 'Brisk Teaching is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Brisk Teaching is a K-12 education technology company that integrates AI
+  directly into the tools teachers already use. Its platform spans three
+  connected products: the Brisk Extension (which brings AI into Google Docs,
+  Slides, PDFs, and YouTube), Brisk Boost (a safe, teacher-controlled,
+  student-facing AI workspace), and Brisk Next (a web-based planning and
+  instruction hub). Brisk helps educators give feedback, create instructional
+  materials, change reading levels, inspect student writing, and generate
+  presentations, lesson plans, rubrics, quizzes, IEP goals, and math problems.
+  The company is backed by Bessemer Venture Partners. Brisk publishes an
+  llms.txt for AI representation and a public status page, but does not
+  currently expose a public developer API, SDKs, or API documentation. This
+  API Evangelist profile tracks its public surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64d233e71a07f45ec32b6736/6780bf59fb4ba3b1a43e0110_1e13962bed2d2fb05d889a3eb47fc3ba_Open%20graph%205.png
 url: https://raw.githubusercontent.com/api-evangelist/brisk-teaching/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Education
+- EdTech
+- K-12
+- Teaching
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.briskteaching.com/
+- type: Pricing
+  url: https://www.briskteaching.com/plans
+- type: SignUp
+  url: https://app.briskteaching.com/get-started
+- type: Login
+  url: https://www.briskteaching.com/login
+- type: Support
+  url: https://help.briskteaching.com
+- type: Blog
+  url: https://www.briskteaching.com/blog
+- type: TermsOfService
+  url: https://www.briskteaching.com/privacy/terms
+- type: PrivacyPolicy
+  url: https://www.briskteaching.com/privacy/privacy-notice
+- type: StatusPage
+  url: https://statuspage.incident.io/brisk-teaching
+- type: LLMsTxt
+  url: llms/brisk-teaching-llms.txt
+- type: Lifecycle
+  url: lifecycle/brisk-teaching-lifecycle.yml
+- type: DomainSecurity
+  url: security/brisk-teaching-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
