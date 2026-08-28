@@ -13,6 +13,17 @@ description: >-
   llms.txt for AI representation and a public status page, but does not
   currently expose a public developer API, SDKs, or API documentation. This
   API Evangelist profile tracks its public surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
