@@ -39,3 +39,32 @@ plans:
     CSM
 rate_limit_statements:
 - Upload limit No limit No limit
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: For Teachers (Free)
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: For Schools & Districts (Premium)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: For Districts (Intelligence)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
