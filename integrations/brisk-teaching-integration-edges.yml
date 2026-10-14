@@ -1,0 +1,38 @@
+edges:
+- partner_name: 1EdTech
+  partner: null
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://site.imsglobal.org/certifications
+  category: 1EdTech certified products
+  contract_reference:
+    register: 1EdTech certified product directory (TrustEd Apps)
+    spec_file: null
+    standard: 1EdTech
+    role: TrustEd Apps Alliance Member
+    registered_name: Brisk Teaching
+    matched_domain: briskteaching.com
+    matched_by: domain
+    standards:
+    - Data Privacy
+    certified_products:
+    - product: Brisk Teaching
+      version: v1
+      standards:
+      - Data Privacy
+      implementation: null
+      attributes:
+      - AI Self-Assessed
+      - Certified Product
+      - TrustEd Apps Seal
+      - Vetted
+      lapsed: false
+      url: https://site.imsglobal.org/certifications/brisk-teaching/brisk-teaching/v1
+    detected_by: sweep-edtech.py
+    detected: '2026-10-14'
+generated: '2026-10-14'
+method: searched
+checked:
+- https://site.imsglobal.org/certifications
