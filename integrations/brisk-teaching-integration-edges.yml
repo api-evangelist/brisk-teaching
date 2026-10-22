@@ -31,7 +31,22 @@ edges:
       lapsed: false
       url: https://site.imsglobal.org/certifications/brisk-teaching/brisk-teaching/v1
     detected_by: sweep-edtech.py
-    detected: '2026-10-14'
+    detected: '2026-10-19'
+- partner_name: ClassLink (classlink-partners)
+  partner: classlink
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: classlink-partners
+  evidence: https://www.classlink.com/company/partners
+  mirror_of: classlink/integrations/classlink-integration-edges.yml
+  apps: []
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
 - partner_name: Clever (clever-app-gallery)
   partner: clever
   partner_match: mirror
@@ -55,6 +70,7 @@ edges:
 generated: '2026-10-14'
 method: searched
 checked:
+- classlink/integrations/classlink-integration-edges.yml
 - clever/integrations/clever-integration-edges.yml
 - https://site.imsglobal.org/certifications
 source:
