@@ -64,6 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Brisk Teaching is a company surfaced as a portfolio company of bessemer-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the enrichment pipeline.
+Brisk Teaching is a K-12 education technology company that integrates AI directly into the tools teachers already use. Its platform spans three connected products: the Brisk Extension (which brings AI into Google Docs, Slides, PDFs, and YouTube), Brisk Boost (a safe, teacher-controlled, student-facing AI workspace), and Brisk Next (a web-based planning and instruction hub). Brisk helps educators give feedback, create instructional materials, change reading levels, inspect student writing, and generate presentations, lesson plans, rubrics, quizzes, IEP goals, and math problems. The company is backed by Bessemer Venture Partners. Brisk publishes an llms.txt for AI representation and a public status page, but does not currently expose a public developer API, SDKs, or API documentation. This API Evangelist profile tracks its public surface.
 
-Backed by: bessemer-venture-partners — https://www.briskteaching.com/
+**Areas:** Company · Artificial Intelligence · Education · EdTech · K-12 · Teaching · Software-as-a-Service
+
+## Brisk Teaching on APIs.io
+
+Everything profiled for Brisk Teaching is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brisk-teaching/](https://apis.io/providers/brisk-teaching/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [brisk-teaching](https://apis.io/servers/brisk-teaching/brisk-teaching/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Brisk Teaching Domain Security](https://apis.io/security/brisk-teaching/brisk-teaching-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Brisk Teaching Plans Pricing](https://apis.io/plans/brisk-teaching/brisk-teaching-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.briskteaching.com/)
+- [Pricing](https://www.briskteaching.com/plans)
+- [Sign up](https://app.briskteaching.com/get-started)
+- [Support](https://help.briskteaching.com)
+- [Blog](https://www.briskteaching.com/blog)
+- [Terms of service](https://www.briskteaching.com/privacy/terms)
+- [Privacy policy](https://www.briskteaching.com/privacy/privacy-notice)
+- [Status](https://statuspage.incident.io/brisk-teaching)
+
+## API Evangelist rating
+
+**Kin Score 21.4** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 69.7 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 12.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brisk-teaching/](https://apis.io/providers/brisk-teaching/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Brisk Teaching: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brisk-teaching/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
